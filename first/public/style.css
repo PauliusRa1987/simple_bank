@@ -1,0 +1,63 @@
+.li {
+    display: grid;
+    grid-template-columns: 1.5fr repeat(6, 1fr);
+    grid-template-rows: 1fr auto;
+    column-gap: 10px;
+    row-gap: 15px;
+
+    align-items: center;
+}
+
+.link {
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    text-decoration: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+    color: #fff;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 36px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #007c89;
+    padding: 0 18px;
+    text-decoration: none;
+}
+
+a.btn {
+    width: 60px;
+}
+
+.centre {
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: beige;
+    padding: 30px;
+
+}
+
+.imput {
+    display: block;
+    height: 30px;
+    width: 300px;
+}
+
+.btn.create{
+    margin-top: 20px;
+}
